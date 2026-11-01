@@ -52,9 +52,15 @@ Here is a snippet of the layout centering technique used in CSS:
 
 ### Continued development
 
-In future projects, I want to continue refining:
-- Responsive design techniques using CSS Grid and container queries.
-- Best practices for custom CSS resets and accessibility standards.
+In this project, matching the precise design spacing was trickier than expected. Fine-tuning the internal card padding (padding: 1.5rem 0.75rem) and element margins (margin-bottom: 1rem on h1) required several visual comparisons against the design preview. Additionally, integrating the Outfit font required ensuring the specific font weights were loaded cleanly to render crisp text across viewports.
+
+In future challenges, I want to focus on:
+
+Leveraging CSS Variables: Instead of declaring HSL values inline throughout the stylesheet, I plan to set up a dedicated :root color system to make font colors and background tones more maintainable.
+
+Improving Fluid Typography & Spacing: I want to experiment with clamp() and scalable dynamic spacing rules so text sizes and container paddings adapt seamlessly without relying solely on fixed rem pixel breakdowns.
+
+Exploring CSS Grid for Centering & Layouts: While Flexbox worked well for this single component, I want to practice CSS Grid techniques (such as place-content: center) on multi-card layouts.
 
 ### AI Collaboration
 
