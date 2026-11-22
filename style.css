@@ -8,7 +8,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
 }
 
 .card {
@@ -46,3 +45,15 @@ p {
 
 .attribution { font-size: 0.6875rem; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media (min-width: 768px) {
+  .card {
+    max-width: 22rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    max-width: 24rem;
+  }
+}
