@@ -1,13 +1,13 @@
 body {
   font-family: 'Outfit', sans-serif;
   background-color: hsl(212, 45%, 89%);
-  min-height: 100vh;
 }
 
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 100vh;
 }
 
 .card {
@@ -30,14 +30,14 @@ body {
   padding: 1.5rem 0.75rem;
 }
 
-h1 {
+.card h1 {
   font-size: 1.375rem;
   color: hsl(218, 44%, 22%);
   margin-bottom: 1rem;
   line-height: 1.3;
 }
 
-p {
+.card p {
   font-size: 0.9375rem;
   color: hsl(218, 22%, 67%);
   line-height: 1.5;
